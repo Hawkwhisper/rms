@@ -1,0 +1,25 @@
+{
+  "name": "rms",
+  "displayName": "rms",
+  "description": "RPG Maker Shader Lang",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "rmmv_rmmz_shader_lang",
+      "aliases": ["RPG Maker Shader Language", "rmmv_rmmz_shader_lang"],
+      "extensions": [".rms"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "rmmv_rmmz_shader_lang",
+      "scopeName": "",
+      "path": "./syntaxes/rmmv_rmmz_shader_lang.tmLanguage.json"
+    }]
+  }
+}
